@@ -1,5 +1,6 @@
 ARG NGINX_VERSION
 FROM nginx:${NGINX_VERSION}
+# FROM nginx:1.13.8-alpine
 
 RUN apk update && \
     apk add \
